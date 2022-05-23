@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <!-- Basic Page Needs
@@ -7,7 +8,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Pixel Perfect Portfolio</title>
+    <title>Tugas Besar A2</title>
 
     <meta name="description" content="">
     <meta name="author" content="">
@@ -38,30 +39,36 @@
 
     <!-- Font Awesome core CSS -->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.20.1/dist/bootstrap-table.min.css">
 
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://unpkg.com/bootstrap-table@1.20.1/dist/bootstrap-table.min.js"></script>
+    <!-- Latest compiled and minified Locales -->
+    <script src="https://unpkg.com/bootstrap-table@1.20.1/dist/locale/bootstrap-table-zh-CN.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.20.1/dist/bootstrap-table.min.js"></script>
 </head>
 <body>
-    <div>
-        <canvas id="myChart"></canvas>
-      </div>
+
     <!-- Hero Section, Background Image change in css -->
     <div id="top" class="hero background-overlay">
-    
+
         <!-- Name & Description -->
         <div class="hero-content">
-            <h1>Visualisai Data LPSE Batam Tahun 2017 – 2021 </h1>
+            <h1> Kelompok A2 </h1>
             <p class="hero-job">Proyek I Pengembangan Perangkat Lunak Desktop</p>
-            <p class="hero-job-desc">Kelompok A2 </p>
 
         </div><!-- /.hero-content -->
 
@@ -78,12 +85,13 @@
             <div class="container">
                 <div class="navbar-header page-scroll">
 
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#portfolio-perfect-collapse" aria-expanded="false">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    
+
                     <!-- Name -->
                     <div class="page-scroll site-logo">
                         <a href="#top">A2</a>
@@ -104,7 +112,7 @@
                         <li class="page-scroll"><a href="#history">History</a></li>
                         <li class="page-scroll"><a href="#works">Works</a></li>
                         <li class="page-scroll"><a href="#contact">Contact</a></li>
-                        
+
                     </ul><!-- /.navbar-nav -->
 
                 </div><!-- /.navbar-collapse -->
@@ -117,218 +125,92 @@
     <main id="main" class="site-main">
 
         <!-- Hello section -->
-		<section class="site-section section-hello" id="intro">
-			<div class="container">
-				<h2>HELLO &amp; WELCOME</h2>
-				<p class="section-subtitle"><span>EXPLORE OUR WORLD</span></p>
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="main-service text-right">
-							<div class="rectangle">
-								<i class="fa fa-calendar" aria-hidden="true"></i>
-							</div><!-- /.rectangle -->
-							<h3>We Meet Deadlines</h3>
-							<p>Your deadline is the most important value for us. Our job is to make sure the job is done perfectly before the deadline.</p>
-						</div><!-- /.main-service -->
+        <section class="site-section section-hello" id="intro">
+            <div class="container">
+                <h2>Visi dan Misi</h2>
+                <p class="section-subtitle"><span>Kelompok A2</span></p>
+                <div class="row">
+                    <div class="col-sm-4">
                         <div class="main-service text-right">
                             <div class="rectangle">
-                                <i class="fa fa-comments" aria-hidden="true"></i>
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </div><!-- /.rectangle -->
+                            <h3>Visi 1</h3>
+                            <p>Mewujudkan kelompok yang aktif dalam segala bidang.</p>
                             </div>
-                            <h3>Communication Is Key</h3>
-                            <p>Our team is available to check on your questions and take in feedback as soon as possibly.</p>
-                        </div><!-- /.main-service -->
-					</div>
-					<div class="col-sm-4">
-						<div class="big-rectangle">
-							<img src="assets/img/john-logo.png" alt="">
-						</div><!-- /.big-rectangle -->
-					</div>
-					<div class="col-sm-4">
+                        <div class="main-service text-right">
+                            <div class="rectangle">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </div>
+                            <h3>Visi 2</h3>
+                            <p>Meningkatkan kualitas skill individu dari masing masing kelompok.</p>
+                            </div>
+                        <!-- /.main-service -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="big-rectangle">
+                            <img src="assets/img/Logo.png" alt="">
+                        </div><!-- /.big-rectangle -->
+                    </div>
+                    <div class="col-sm-4">
                         <div class="main-service text-left">
                             <div class="rectangle">
                                 <i class="fa fa-check" aria-hidden="true"></i>
                             </div>
-                            <h3>Quality Control</h3>
-                            <p>We test out everything to make sure that your project is fully functional, cross–browser compatible and meets your specifications.</p>
+                            <h3>Misi 1</h3>
+                            <p>Melaksanakan dan mengerjakan tugas dengan sebaik mungkin dengan mengeluarkan kemampuan secara maksimal dan dapat mengajari satu sama lain antar anggota kelompok.</p>
                         </div><!-- /.main-service -->
-						<div class="main-service text-left">
-							<div class="rectangle">
-								<i class="fa fa-list" aria-hidden="true"></i>
-							</div><!-- /.rectangle -->
-							<h3>Pixel Perfect</h3>
-							<p>We develop meaningful digital products and experiences that matter with design thinking and creative craftsmanship.</p>
-						</div><!-- /.main-service -->
-					</div>
-				</div>
-			</div>
-		</section><!-- /.section-hello -->
+                        <div class="main-service text-left">
+                            <div class="rectangle">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </div><!-- /.rectangle -->
+                            <h3>Misi 2</h3>
+                            <p>Terus belajar mengenai hal baru untuk meningkatkan kualitas tiap individu serta selalu melakukan komunikasi ketika ada sesuatu yang perlu didiskusikan.</p>
+                        </div>
+                        <!-- /.main-service -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.section-hello -->
         <!-- End Hello section -->
 
-        <!-- Quote section -->
-		<section class="section-background section-quote background-overlay text-center">
-			<div class="container">
-				<p>We make our <span>work look good</span> &amp; have experience in the creation of brand identities for <span>print &amp; web</span>, with a difference.</p>
-			</div>
-		</section><!-- /.section-quote -->
-        <!-- End Quote section -->
+        <!-- Counters section -->
 
         <!-- About section -->
         <section class="site-section section-about text-center" id="about">
             <div class="container">
-                <h2>ABOUT John WORK</h2>
-                <p class="section-subtitle"><span>Our goal is to build products and services</span></p>
+                <h2>Lembaga Pengadaan Secara Elektronik</h2>
+                <p class="section-subtitle"><span>LPSE</span></p>
                 <div class="row">
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="feature-about">
-                            <div class="medium-rectangle rectangle">
-                                <i class="fa fa-laptop" aria-hidden="true"></i>
-                            </div><!-- /.rectangle -->
-                            <h3>Web design</h3>
-                            <p>Our approach to website design is to create a website that strengthens your company’s brand while ensuring ease of use and simplicity for your audience</p>
-                        </div><!-- /.feature-about -->
-                    </div>                    
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="feature-about">
-                            <div class="medium-rectangle rectangle">
-                                <i class="fa fa-code" aria-hidden="true"></i>
-                            </div><!-- /.rectangle -->
-                            <h3>Web development</h3>
-                            <p>The web development process involves taking the graphical elements defined in the design process and coding them into a custom theme.</p>
-                        </div><!-- /.feature-about -->
-                    </div>                    
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="feature-about">
-                            <div class="medium-rectangle rectangle">
-                                <i class="fa fa-search" aria-hidden="true"></i>
-                            </div><!-- /.rectangle -->
-                            <h3>SEO OPTIMIZATION</h3>
-                            <p>Go farther than you thought you could. With us you can go farther then ever before. Be in top results of searches.</p>
-                        </div><!-- /.feature-about -->
-                    </div>                    
-                    <div class="col-sm-3 col-xs-6">
-                        <div class="feature-about">
-                            <div class="medium-rectangle rectangle">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </div><!-- /.rectangle -->
-                            <h3>SOCIAL MEDIA</h3>
-                            <p>It's important to keep your brand consistent and recognizable across all platforms</p>
-                        </div><!-- /.feature-about -->
+                    <div class="col-sm-5 ">
+                        <img src="assets/img/LPSE2.jpg" alt="LPSE" class="img-thumbnail rounded">
+                    </div>
+                    <div class="col-sm-6" align="justify">
+                        <p><br><br><br>LPSE (Lembaga Pengadaan Secara Elektronik) adalah unit layanan penyelenggar sistem elektronik pengadaan barang / jasa yang didirikan oleh kementrian atau lembaga atau perguruan tinggi atau BUMN dan pemerintah daerah untuk memfasilitasi ULP ( Unit Layanan Pengadaan) dalam melaksanakan pengadaan barang atau jasa pemerintah secara elektronik).
+                            LPSE sendiri mengoperasikan sistem e-procurement bernama SPSE (Sistem Pengadaan Secara Elektronik) yang dikembangkan oleh LKPP. Pada awalnya LPSE hanya sebagai tim ad hoc yang dibentuk oleh kepala instansi (gubernur, walikota, menteri). Pada perkembangan selanjutnya, sebagian instansi telah mendirikan LPSE secara struktural seperti di Kementerian Keuangan Republik Indonesia, Provinsi Jawa Barat, dan Provinsi Sumatera Barat.
+                           </p>
                     </div>
                 </div>
             </div>
         </section><!-- /.section-about -->
         <!-- End About section -->
 
-        <!-- Skills section -->
-        <section class="site-section section-skills">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h2>Introduction video</h2>
-                        <iframe src="https://player.vimeo.com/video/158928871" width="100%" height="280" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div>
-                    <div class="col-sm-6">
-                        <h2>SKILLS WE GOT</h2>
-                        <div class="progress-group">
-                            <p>Web design</p>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="100">
-                                </div>
-                            </div><!-- /.progress -->
-                        </div><!-- /.progress-group -->
 
-                        <div class="progress-group">
-                            <p>Web development</p>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="100">
-                                </div>
-                            </div><!-- /.progress -->
-                        </div><!-- /.progress-group -->
-
-                        <div class="progress-group">
-                            <p>Mobile Development</p>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="95">
-                                </div>
-                            </div><!-- /.progress -->
-                        </div><!-- /.progress-group -->
-
-                        <div class="progress-group">
-                            <p>SEO optimization</p>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="100">
-                                </div>
-                            </div><!-- /.progress -->
-                        </div><!-- /.progress-group -->
-
-                        <div class="progress-group">
-                            <p>Social Media</p>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="90">
-                                </div>
-                            </div><!-- /.progress -->
-                        </div><!-- /.progress-group -->
-                    </div>
-                </div>
-            </div>
-        </section><!-- /.section-skills -->
-        <!-- End Skills section -->
-
-        <!-- Counters section -->
-        <section class="site-section section-counters text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-2 col-xs-6 col-sm-offset-1">
-                        <div class="counter">
-                            <div class="rectangle medium-rectangle ">
-                                <i class="fa fa-rocket" aria-hidden="true"></i>
-                                <span class="counter-start" data-to="1" data-speed="2000">167</span>
-                            </div><!-- /.rectangle -->
-                            <p>Projects Launched</p>
-                        </div><!-- /.counter -->
-                    </div>
-                    <div class="col-sm-2 col-xs-6">
-                        <div class="counter">
-                            <div class="rectangle medium-rectangle ">
-                                <i class="fa fa-trophy" aria-hidden="true"></i>
-                                <span class="counter-start" data-to="0" data-speed="2000">25</span>
-                            </div><!-- /.rectangle -->
-                             <p>Awards won</p>
-                        </div><!-- /.counter -->
-                    </div>                    
-                    <div class="col-sm-2 col-xs-6">
-                        <div class="counter">
-                            <div class="rectangle medium-rectangle ">
-                                <i class="fa fa-paper-plane" aria-hidden="true"></i>
-                                <span class="counter-start" data-to="0" data-speed="2000">98</span>
-                            </div><!-- /.rectangle -->
-                             <p>Proposals Sent</p>
-                        </div><!-- /.counter -->
-                    </div>                    
-                    <div class="col-sm-2 col-xs-6">
-                        <div class="counter">
-                            <div class="rectangle medium-rectangle ">
-                                <i class="fa fa-clock-o" aria-hidden="true"></i>
-                                <span class="counter-start" data-to="945" data-speed="2000">945</span>
-                            </div><!-- /.rectangle -->
-                             <p>Hours of work</p>
-                        </div><!-- /.counter -->
-                    </div>                    
-                    <div class="col-sm-2 col-xs-12">
-                        <div class="counter">
-                            <div class="rectangle medium-rectangle ">
-                                <i class="fa fa-coffee" aria-hidden="true"></i>
-                                <span class="counter-start" data-to="256" data-speed="2000">256</span>
-                            </div><!-- /.rectangle -->
-                             <p>Cups of coffee</p>
-                        </div><!-- /.counter -->
-                    </div>
-                </div>
-
-            </div>
-        </section><!-- /.section-counters -->
-        <!-- End Counters section -->
-
+        <div class="container border border-secondary">
+            <table data-toggle="table" data-url="InformasiTender.json" data-pagination="true" data-search="true" class="tableMargin">
+                <thead>
+                    <tr class="thheader">
+                    <th data-field="Kode" data-sortable="true">Kode Tender</th>
+                    <th data-field="Nama_Tender" data-sortable="true">Nama Tender</th>
+                    <th data-field="Nilai_HPS" data-sortable="true" class="thnilai">Nilai HPS</th>
+                    <th data-field="Nilai_Pagu" data-sortable="true" class="thnilai">Nilai Pagu</th>
+                    <th data-field="Jumlah_Peserta" data-sortable="true">Jumlah Peserta</th>
+                    <th data-field="Pemenang_Tender" data-sortable="true">Pemenang Tender</th>
+                    <th data-field="Tahapan" data-sortable="true" class="thnilai">Keterangan</th>
+                    </tr>
+                </thead>
+                </table>
+        </div>
         <!-- Services section -->
         <section class="site-section section-services" id="services">
 
@@ -338,6 +220,9 @@
             </div>
             <figure class="highcharts-figure">
                 <div id="Peserta"></div>
+            </figure>
+            <figure class="highcharts-figure">
+                <div id="Pemenang"></div>
             </figure>
             <div class="container">
 
@@ -394,94 +279,43 @@
                                 </div>
                             </div>
                         </a><!-- /.item -->
-                                            <div class="item-controls text-center">
-                        <a href="#services-carousel" class="left btn carousel-control" data-slide="prev"><i class="fa fa-angle-left" aria-hidden="true"></i>
-                        </a>
-                        <a href="#services-carousel" class="right btn carousel-control" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i>
-                        </a>
-                    </div><!-- /.item-controls -->
+                        <div class="item-controls text-center">
+                            <a href="#services-carousel" class="left btn carousel-control" data-slide="prev"><i
+                                    class="fa fa-angle-left" aria-hidden="true"></i>
+                            </a>
+                            <a href="#services-carousel" class="right btn carousel-control" data-slide="next"><i
+                                    class="fa fa-angle-right" aria-hidden="true"></i>
+                            </a>
+                        </div><!-- /.item-controls -->
                     </div><!-- /.carousel-indicators -->
-                        
-                           
-                    <div class="carousel-inner">
-                        <!-- Item 1 -->   
-                        <div id="item1" class="item tab-pane active">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="service-info">
-                                        <h3 class="service-title">Web Design</h3>
-                                        <p>Decorations don’t drive home messages. Content does. Reducing text-based content to a visual design element (the shape of the text) can result in bloated and unrealistic client expectations once real data replaces the dummy content. We allow our design decisions to be dictated by the on-page content and messaging, and often our designers use the actual content to inspire interesting elements that might not have been conceived without it</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-7">
-                                    <img src="assets/img/web-design.jpg" class="img-responsive" alt="">
-                                </div>
-                            </div>
-                        </div><!-- /.item -->
-                        <!-- Item 2 -->   
-                        <div id="item2" class="item tab-pane">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="service-info">
-                                        <h3 class="service-title">Web Development</h3>
-                                        <p>Once we have come up with a unique design and have finalized the textures and graphics to be added, the next step is to make it all come together. And that is what we aim to achieve at our web development agency India. Only a professionally designed website can justify the uniqueness of your idea and this is a fact clearly understood by our team. </p>
 
-                                        <p>While a good design can impress the users, it is the codes and development process that ensures that your target users will find the browsing experience equally amazing as your design. </p>
-                                    </div>
-                                </div>
-                                <div class="col-md-7">
-                                    <img src="assets/img/web-development.jpg" class="img-responsive" alt="">
-                                </div>
-                            </div>
+
+                    <div class="carousel-inner">
+                        <!-- Item 1 -->
+                        <div id="item1" class="item tab-pane active">
+                            <div id="chart2017"></div>
                         </div><!-- /.item -->
-                        <!-- Item 3 -->   
+                        <!-- Item 2 -->
+                        <div id="item2" class="item tab-pane">
+                            <div id="chart2018"></div>
+                        </div><!-- /.item -->
+                        <!-- Item 3 -->
                         <div id="item3" class="item tab-pane">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="service-info">
-                                        <h3 class="service-title">Mobile Development</h3>
-                                        <p>With an increasing importance being given to smart phones, and mobile apps, it has become immensely important to include app development as part of web design services. Our team is known to provide excellent and extraordinary apps that are unique in every way. All the apps developed by our team are based on providing interesting features combined with enhanced functionality. With a mobile app in place, you can increase the reach of your brand and broaden its horizons too. You can have an easy to use professional app created that provides ease of functionality and an amazing appeal.</p>                                     
-                                    </div>
-                                </div>
-                                <div class="col-md-7">
-                                    <img src="assets/img/mobile-development.jpg" class="img-responsive" alt="">
-                                </div>
-                            </div>
+                            <div id="chart2019"></div>
                         </div><!-- /.item -->
-                        <!-- Item 4 -->   
+                        <!-- Item 4 -->
                         <div id="item4" class="item tab-pane">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="service-info">
-                                        <h3 class="service-title">SEO optimization</h3>
-                                        <p>Search engine optimization (SEO) is the process of improving the visibility of a web site in search engines. Consumer puts a lot of trust in search engines to find what they need. Google receives 34,000 searches per second. Those searches involve finding products, reviewing brands, and looking up business locations.</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-7">
-                                    <img src="assets/img/seo-optimization.jpg" class="img-responsive" alt="">
-                                </div>
-                            </div>
+                            <div id="chart2020"></div>
                         </div><!-- /.item -->
-                        <!-- Item 5 -->   
+                        <!-- Item 5 -->
                         <div id="item5" class="item tab-pane">
-                            <div class="row">
-                                <div class="col-md-5">
-                                    <div class="service-info">
-                                        <h3 class="service-title">Social Media</h3>
-                                        <p>Social Media, has become an essential tool of marketing an online business. It gives you a platform to interact and inform people about yourself and your brand. The concept of social media basically refers to the task of promoting websites or business through social media platforms..</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-7">
-                                    <img src="assets/img/social-media.jpg" class="img-responsive" alt="">
-                                </div>
-                            </div>
+                            <div id="chart2021"></div>
                         </div><!-- /.item -->
                     </div><!-- /.carousel-inner -->
                 </div><!-- /.carousel -->
             </div>
         </section><!-- /.section-services -->
         <!-- End Services section -->
-
         <!-- Reviews section -->
         <section class="site-section section-reviews text-center">
             <div class="container">
@@ -497,7 +331,9 @@
                             <div class="rectangle">
                                 <img src="assets/img/review.jpg" class="img-res" alt="">
                             </div>
-                            <p>If there were 100 star rating I would leave 110. I have been building WP sites now full time for 7 years and in business for 12 and have never worked with such a solid company with such a wonderful set of themes.</p>
+                            <p>If there were 100 star rating I would leave 110. I have been building WP sites now full
+                                time for 7 years and in business for 12 and have never worked with such a solid company
+                                with such a wonderful set of themes.</p>
                             <div class="review-author">
                                 <h3>Mike Taylor</h3>
                                 <p>CEO at Sports Portal</p>
@@ -508,7 +344,9 @@
                             <div class="rectangle">
                                 <img src="assets/img/review-2.jpg" class="img-res" alt="">
                             </div>
-                            <p>Diana Johnson is a rare SEO consultant who does things the right way. I’ve been consistently impressed with her process, organization and strategic method of doing SEO the right way.</p>
+                            <p>Diana Johnson is a rare SEO consultant who does things the right way. I’ve been
+                                consistently impressed with her process, organization and strategic method of doing SEO
+                                the right way.</p>
                             <div class="review-author">
                                 <h3>Anna Murray</h3>
                                 <p>CEO at Law firm</p>
@@ -525,29 +363,29 @@
             <div class="container">
                 <h2>MEET OUR TEAM</h2>
                 <p class="section-subtitle"><span>KELOMPOK A2</span></p>
-                
+
                 <div class="team">
-                    <div class="row">   
-                        <!-- Team Member --> 
+                    <div class="row">
+                        <!-- Team Member -->
                         <div class="col-sm-4 col-xs-6">
                             <div class="team-member">
                                 <div class="flipper">
                                     <div class="team-member-front">
                                         <div class="team-member-thumb">
                                             <img src="assets/img/Zacky.jpg" class="img-res" alt="">
-                                        </div>  <!-- /.team-member-thumb -->
+                                        </div> <!-- /.team-member-thumb -->
                                         <p class="team-member-front-name">Zacky Faisal Abror</p>
                                     </div><!-- /.team-member-front -->
                                     <div class="team-member-back">
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">Zacky Faisal Abror</h3>
                                             <p class="team-member-back-position">Leader & Analyst</p>
-                                            <p class="team-member-back-info text-justify">
-                                                Data Diri:</br>
-                                                TTL: BANDUNG, 30 JUNI 2002<br>
-                                                Alamat: JL. PALASARI 1 NO 12 RT 03 RW 07 KELURAHAN PALASARI KECAMATAN CIBIRU KOTA BANDUNG<br>
-                                                POLITEKNIK NEGERI BANDUNG (2021-SEKARANG)<br>
-                                                Gender: Laki-Laki<br></p>
+                                            <p class="team-member-back-info">
+                                                Nama      : Zacky Faisal Abror<br>
+                                                Prodi     : D4 Teknik Informatika<br>
+                                                Univ      : Politeknik Negeri Bandung<br>
+                                                NIM/Kelas : 211524031 / D4-1A<br>
+                                                Motto     : Selalu berikan yang terbaik di setiap kesempatan
                                             <div class="social-icons small">
                                                 <a href="#" class="rectangle"><i class="fa fa-facebook"></i></a>
                                                 <a href="#" class="rectangle"><i class="fa fa-twitter"></i></a>
@@ -555,29 +393,30 @@
                                                 <a href="#" class="rectangle"><i class="fa fa-dribbble"></i></a>
                                             </div>
                                         </div><!-- /.team-member-back-info -->
-                                    </div><!-- /.team-member-back -->  
-                                </div>         
-                            </div><!-- /.team-member -->       
+                                    </div><!-- /.team-member-back -->
+                                </div>
+                            </div><!-- /.team-member -->
                         </div>
-                        <!-- Team Member --> 
+                        <!-- Team Member -->
                         <div class="col-md-4 col-xs-6">
                             <div class="team-member">
                                 <div class="flipper">
                                     <div class="team-member-front">
                                         <div class="team-member-thumb">
                                             <img src="assets/img/Annisa.jpg" class="img-res" alt="">
-                                        </div>  <!-- /.team-member-thumb -->
+                                        </div> <!-- /.team-member-thumb -->
                                         <p class="team-member-front-name">Annisa Dinda Gantini</p>
                                     </div><!-- /.team-member-front -->
                                     <div class="team-member-back">
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">Annisa Dinda Gantini</h3>
                                             <p class="team-member-back-position">Documentation & Design</p>
-                                            <p class="team-member-back-info">About Me :
-                                            <br>Saya adalah mahasiswi tingkat satu di Politeknik Negeri Bandung. Sekarang, saya ditempatkan di kelas 1A dengan NIM 211524003.<br>
-                                                Moto hidup saya yaitu "Stay pretty. Be educated. Dress well. Get money". <br>
-                                                Hobi saya sangat banyak. Diantaranya adalah travelling, hiking, olahraga, bermain musik.<br>
-                                                Salah satu skill yang sudah saya dapat atau sudah saya kuasai semenjak belajar di Teknik Informatika ini adalah bisa membuat program untuk menyelesaikan suatu masalah dengan menggunakan bahasa pemrograman C dan Java, Menggunakan Excel untuk pekerjaan sederhana, dan masih banyak pelajaran lainnya yang saya dapat. <br><br>
+                                            <p class="team-member-back-info">
+                                                Nama      : Annisa Dinda Gantini<br>
+                                                Prodi     : D4 Teknik Informatika<br>
+                                                Univ      : Politeknik Negeri Bandung<br>
+                                                NIM/Kelas : 211524003 / D4-1A<br>
+                                                Motto     : Stay pretty. Be educated. Dress well. Get money
                                             </p>
                                             <div class="social-icons small">
                                                 <a href="#" class="rectangle"><i class="fa fa-facebook"></i></a>
@@ -586,60 +425,62 @@
                                                 <a href="#" class="rectangle"><i class="fa fa-dribbble"></i></a>
                                             </div>
                                         </div><!-- /.team-member-back-info -->
-                                    </div><!-- /.team-member-back -->  
-                                </div>         
-                            </div><!-- /.team-member -->       
+                                    </div><!-- /.team-member-back -->
+                                </div>
+                            </div><!-- /.team-member -->
                         </div>
-                        <!-- Team Member --> 
+                        <!-- Team Member -->
                         <div class="col-sm-4 col-xs-6">
                             <div class="team-member">
                                 <div class="flipper">
                                     <div class="team-member-front">
                                         <div class="team-member-thumb">
                                             <img src="assets/img/Maolana.jpg" class="img-res" alt="">
-                                        </div>  <!-- /.team-member-thumb -->
+                                        </div> <!-- /.team-member-thumb -->
                                         <p class="team-member-front-name">Maolana Firmansyah</p>
                                     </div><!-- /.team-member-front -->
                                     <div class="team-member-back">
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">Maolana Firmansyah</h3>
                                             <p class="team-member-back-position">Documentation & Tester</p>
-                                            <p class="team-member-back-info">Data Diri :<br>
-                                                Nama : Maolana Firmansyah<br>
-                                                Prodi : D4 Teknik Informatika<br>
-                                                Univ : Politeknik Negeri Bandung<br>
+                                            <p class="team-member-back-info">
+                                                Nama      : Maolana Firmansyah<br>
+                                                Prodi     : D4 Teknik Informatika<br>
+                                                Univ      : Politeknik Negeri Bandung<br>
                                                 NIM/Kelas : 211524013 / D4-1A<br>
-                                                Motto : Do more of what makes you happy<div class="social-icons small">
+                                                Motto     : Do more of what makes you happy
+                                            <div class="social-icons small">
                                                 <a href="#" class="rectangle"><i class="fa fa-facebook"></i></a>
                                                 <a href="#" class="rectangle"><i class="fa fa-twitter"></i></a>
                                                 <a href="#" class="rectangle"><i class="fa fa-linkedin"></i></a>
                                                 <a href="#" class="rectangle"><i class="fa fa-dribbble"></i></a>
                                             </div>
                                         </div><!-- /.team-member-back-info -->
-                                    </div><!-- /.team-member-back -->  
-                                </div>         
-                            </div><!-- /.team-member -->       
-                        </div>       
+                                    </div><!-- /.team-member-back -->
+                                </div>
+                            </div><!-- /.team-member -->
+                        </div>
                         <div class="col-sm-2 col-xs-6 pt-1"></div>
-                        <!-- Team Member --> 
+                        <!-- Team Member -->
                         <div class="col-sm-4 col-xs-6">
                             <div class="team-member">
                                 <div class="flipper">
                                     <div class="team-member-front">
                                         <div class="team-member-thumb">
                                             <img src="assets/img/M_Zaki.jpg" class="img-res" alt="">
-                                        </div>  <!-- /.team-member-thumb -->
+                                        </div> <!-- /.team-member-thumb -->
                                         <p class="team-member-front-name">Muhammad Zaki</p>
                                     </div><!-- /.team-member-front -->
                                     <div class="team-member-back">
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">Muhammad Zaki</h3>
                                             <p class="team-member-back-position">Programmer & Tester</p>
-                                            <p class="team-member-back-info">Data Diri :<br>
-												TTL: Cimahi, 9 November 2002<br>
-												Alamat: Puri Cipageran Indah 1 E-184<br>
-												Umur: 19<br>
-												Gender: Laki-Laki<br></p>
+                                            <p class="team-member-back-info">
+                                                Nama      : MMuhammad Zaki<br>
+                                                Prodi     : D4 Teknik Informatika<br>
+                                                Univ      : Politeknik Negeri Bandung<br>
+                                                NIM/Kelas : 211524020 / D4-1A<br>
+                                                Motto     : You miss 100% of the shots you don’t take</p>
                                             <div class="social-icons small">
                                                 <a href="#" class="rectangle"><i class="fa fa-facebook"></i></a>
                                                 <a href="#" class="rectangle"><i class="fa fa-twitter"></i></a>
@@ -647,29 +488,31 @@
                                                 <a href="#" class="rectangle"><i class="fa fa-dribbble"></i></a>
                                             </div>
                                         </div><!-- /.team-member-back-info -->
-                                    </div><!-- /.team-member-back -->  
-                                </div>         
-                            </div><!-- /.team-member -->       
+                                    </div><!-- /.team-member-back -->
+                                </div>
+                            </div><!-- /.team-member -->
                         </div>
-                        <!-- Team Member --> 
+                        <!-- Team Member -->
                         <div class="col-sm-4 col-xs-6">
                             <div class="team-member">
                                 <div class="flipper">
                                     <div class="team-member-front">
                                         <div class="team-member-thumb">
                                             <img src="assets/img/budi.png" class="img-res" alt="">
-                                        </div>  <!-- /.team-member-thumb -->
+                                        </div> <!-- /.team-member-thumb -->
                                         <p class="team-member-front-name">Yayang Setia Budi</p>
                                     </div><!-- /.team-member-front -->
                                     <div class="team-member-back">
                                         <div class="team-member-info">
                                             <h3 class="team-member-back-name">Yayang Setia Budi</h3>
                                             <p class="team-member-back-position">Programmer & Analyst</p>
-                                            <p class="team-member-back-info">Data Diri :<br>
-												TTL: Bandung, 14 Oktober 2001<br>
-												Alamat: Kp. Pasir Kiara, Majalaya, Kabupaten Bandung<br>
-												Umur: 21<br>
-												Gender: Laki-Laki<br></p>
+                                            <p class="team-member-back-info">
+                                                Nama      : Yayang Setia Budi<br>
+                                                Prodi     : D4 Teknik Informatika<br>
+                                                Univ      : Politeknik Negeri Bandung<br>
+                                                NIM/Kelas : 211524030 / D4-1A<br>
+                                                Motto     : Jalani apa yang ada dan teruslah berusaha!</p>
+                                            </p>
                                             <div class="social-icons small">
                                                 <a href="#" class="rectangle"><i class="fa fa-facebook"></i></a>
                                                 <a href="#" class="rectangle"><i class="fa fa-twitter"></i></a>
@@ -677,31 +520,31 @@
                                                 <a href="#" class="rectangle"><i class="fa fa-dribbble"></i></a>
                                             </div>
                                         </div><!-- /.team-member-back-info -->
-                                    </div><!-- /.team-member-back -->  
-                                </div>         
-                            </div><!-- /.team-member -->       
+                                    </div><!-- /.team-member-back -->
+                                </div>
+                            </div><!-- /.team-member -->
                         </div>
                     </div>
-                </div><!-- /.team -->   
+                </div><!-- /.team -->
             </div>
         </section><!-- /.section-team -->
         <!-- End Team section -->
 
-        <!-- History section --> 
+        <!-- History section -->
         <section class="section-history" id="history">
-            <div class="container">          
-                <div class="text-center section-diff-title">     
+            <div class="container">
+                <div class="text-center section-diff-title">
                     <h2>A Look Back At Our History</h2>
                     <p>This my Education and Experience</p>
-                </div> 
-                <!-- Timeline --> 
+                </div>
+                <!-- Timeline -->
                 <ul class="timeline">
-                    <!-- Timeline badge --> 
+                    <!-- Timeline badge -->
                     <li class="timeline-start">
                         <div class="rectangle"><span>2016</span></div>
                     </li><!-- /.timeline-start -->
 
-                    <!-- Timeline job & description  --> 
+                    <!-- Timeline job & description  -->
                     <li>
                         <div class="rectangle timeline-rectangle"></div>
                         <div class="timeline-panel">
@@ -722,17 +565,17 @@
                         </div><!-- /.timeline-panel -->
                     </li>
 
-                    <!-- Timeline badge --> 
+                    <!-- Timeline badge -->
                     <li class="timeline-start">
                         <div class="rectangle"><span>2017</span></div>
                     </li><!-- /.timeline-start -->
 
-                    <!-- Timeline job & description, inverted  --> 
+                    <!-- Timeline job & description, inverted  -->
                     <li class="timeline-inverted">
                         <div class="rectangle timeline-rectangle"></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                               <div class="timeline-position">
+                                <div class="timeline-position">
                                     <p>Web Design</p>
                                 </div><!-- /.timeline-position -->
                                 <div class="timeline-date">
@@ -748,7 +591,7 @@
                         </div><!-- /.timeline-panel -->
                     </li><!-- /.timeline-inverted -->
 
-                    <!-- Timeline job & description  --> 
+                    <!-- Timeline job & description  -->
                     <li>
                         <div class="rectangle timeline-rectangle"></div>
                         <div class="timeline-panel">
@@ -769,16 +612,16 @@
                         </div><!-- /.timeline-panel -->
                     </li>
 
-                    <!-- Timeline Badge  --> 
+                    <!-- Timeline Badge  -->
                     <li class="timeline-end">
                         <div class="rectangle"><span>More</span></div>
                     </li><!-- /.timeline-end -->
                 </ul><!-- /.timeline -->
             </div>
         </section><!-- /.section-history -->
-        <!-- End History section --> 
+        <!-- End History section -->
 
-        <!-- Portfolio/Works section --> 
+        <!-- Portfolio/Works section -->
         <section class="site-section section-works" id="works">
             <div class="container">
                 <h2>RECENT WORKS</h2>
@@ -793,8 +636,8 @@
                     </ul><!-- /.portfolio-sorting  -->
 
                     <div id="grid">
-                        
-                        <!-- Portfolio item --> 
+
+                        <!-- Portfolio item -->
                         <div class="col-md-3 col-sm-4 col-xs-6" data-groups='["webdesign"]'>
                             <div class="portfolio-item">
                                 <div class="portfolio-item-thumb">
@@ -919,9 +762,9 @@
                 </div>
             </div>
         </section><!-- /.section-works -->
-        <!-- End Works section --> 
+        <!-- End Works section -->
 
-        <!-- Me section --> 
+        <!-- Me section -->
         <section class="section-background section-me background-overlay text-center">
             <div class="container page-scroll">
                 <h2>Are You Impressed By My Work?</h2>
@@ -929,37 +772,37 @@
                 <a href="#contact" class="btn">GET IN TOUCH</a>
             </div>
         </section><!-- /.section-me -->
-        <!-- End Me section --> 
+        <!-- End Me section -->
 
-        <!-- Clients section --> 
+        <!-- Clients section -->
         <section class="section-clients">
             <div class="container">
-                <div class="text-center section-diff-title">     
+                <div class="text-center section-diff-title">
                     <h2>Clients I’ve Worked So Far</h2>
                     <p></p>
-                </div> 
+                </div>
 
                 <div class="clients-carousel">
-                    <!-- Client --> 
+                    <!-- Client -->
                     <a href="#" class="client">
                         <img src="assets/img/client-1.png" class="img-responsive" alt="">
-                    </a><!-- /.client -->                    
+                    </a><!-- /.client -->
                     <!-- Client -->
                     <a href="#" class="client">
                         <img src="assets/img/client-2.png" class="img-responsive" alt="">
-                    </a><!-- /.client -->                    
+                    </a><!-- /.client -->
                     <!-- Client -->
                     <a href="#" class="client">
                         <img src="assets/img/client-3.png" class="img-responsive" alt="">
-                    </a><!-- /.client -->                    
+                    </a><!-- /.client -->
                     <!-- Client -->
                     <a href="#" class="client">
                         <img src="assets/img/client-4.png" class="img-responsive" alt="">
-                    </a><!-- /.client -->                    
+                    </a><!-- /.client -->
                     <!-- Client -->
                     <a href="#" class="client">
                         <img src="assets/img/client-5.png" class="img-responsive" alt="">
-                    </a><!-- /.client -->                    
+                    </a><!-- /.client -->
                     <!-- Client -->
                     <a href="#" class="client">
                         <img src="assets/img/client-3.png" class="img-responsive" alt="">
@@ -967,9 +810,9 @@
                 </div><!-- /.clients-carousel -->
             </div>
         </section><!-- /.section-clients -->
-        <!-- End Clients section --> 
+        <!-- End Clients section -->
 
-        <!-- Twitter section --> 
+        <!-- Twitter section -->
         <section class="section-background section-twitter background-overlay text-center">
             <div class="container">
                 <div class="rectangle">
@@ -980,9 +823,9 @@
                 <a href="#" class="btn btn-inverted">follow me</a>
             </div>
         </section><!-- /.section-twitter-->
-        <!-- End Twitter section --> 
+        <!-- End Twitter section -->
 
-        <!-- Contacts section --> 
+        <!-- Contacts section -->
         <section class="site-section section-contact" id="contact">
             <div class="container">
                 <h2>CONTACT MiKE</h2>
@@ -999,88 +842,47 @@
                             <input class="form-control" type="text" placeholder="Subject" required>
                         </div>
                         <div class="col-sm-12">
-                            <textarea class="form-control" placeholder="Your Message"  required></textarea>
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
                         </div>
 
                         <div class="col-sm-12">
                             <button class="btn btn-inverted">Send Message</button>
-                        </div>  
+                        </div>
                     </form>
                 </div>
                 <div class="dropdown">
-                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-                    <span class="caret"></span></button>
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown
+                        Example
+                        <span class="caret"></span></button>
                     <ul class="dropdown-menu">
-                      <li><a href="#">HTML</a></li>
-                      <li><a href="#">CSS</a></li>
-                      <li><a href="#">JavaScript</a></li>
-                      <li><a href="#">jQuery</a></li>
-                      <li><a href="#">Bootstrap</a></li>
-                      <li><a href="#">Angular</a></li>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">jQuery</a></li>
+                        <li><a href="#">Bootstrap</a></li>
+                        <li><a href="#">Angular</a></li>
                     </ul>
-                  </div>
+                </div>
             </div>
         </section><!-- /.section-contact-->
-        <!-- End Contacts section --> 
+        <!-- End Contacts section -->
 
-        <!-- Social Networks section --> 
+       
+
+        <!-- Social Networks section -->
         <section class="section-networks blue-bg">
             <div class="container">
-                <a href="#" class="rectangle">
-                    <i class="fa fa-facebook"></i>
-                </a>
-                <a href="#" class="rectangle">
-                    <i class="fa fa-instagram"></i>
-                </a>
-                <a href="#" class="rectangle">
-                    <i class="fa fa-twitter"></i>
-                </a>
-                <a href="#" class="rectangle">
-                    <i class="fa fa-youtube-play"></i>
-                </a>
-                <a href="#" class="rectangle">
-                    <i class="fa fa-envelope"></i>
-                </a>
-                <a href="#" class="rectangle">
-                    <i class="fa fa-dribbble"></i>
-                </a>
+                <img src="assets/img/Logo.png" alt="Site Name">
+                    <p class="whitefont">Politeknik Negeri Bandung <br><a href="tel:0222013789">(022) 2013789</a> <br> <a href="mailto:polban@polban.ac.id">polban@polban.ac.id</a></p> 
+            </div>
+            <div class="container text-center">
+                <p class="copyright whitefont">&copy;<a href="http://pixelperfect.mk/" target="_blank">PixelPerfect</a> - 2017</p>
             </div>
         </section><!-- /.section-networks-->
-        <!-- End Social Networks section --> 
+        <!-- End Social Networks section -->
 
     </main><!-- /#main -->
     <!-- End Main content -->
-
-    <!-- Footer --> 
-    <footer id="colophon" class="site-footer">
-
-        <div class="container-fluid">
-
-            <ul class="list-unstyled list-inline">
-                <li class="page-scroll"><a href="#top">Home</a></li>
-                <li class="page-scroll"><a href="#intro">Intro</a></li>
-                <li class="page-scroll"><a href="#about">About</a></li>
-                <li class="page-scroll"><a href="#services">Services</a></li>
-                <li class="page-scroll"><a href="#team">Team</a></li>
-                <li class="page-scroll"><a href="#history">History</a></li>
-                <li class="page-scroll"><a href="#works">Works</a></li>
-                <li class="page-scroll"><a href="#contact">Contact</a></li>
-            </ul>
-
-            <div class="page-scroll">
-                <a href="#top" class="rectangle">
-                    <i class="fa fa-angle-double-up"></i>
-                </a>
-            </div>
-
-        </div>
-
-        <div class="container text-center">
-            <p class="copyright">&copy; <a href="http://pixelperfect.mk/" target="_blank">PixelPerfect</a> - 2017</p>
-        </div>
-
-    </footer><!-- /#footer -->
-    <!-- End Footer --> 
 
     <!-- Modals -->
     <div id="portfolioItem1" class="modal fade fade-scale" role="dialog">
@@ -1092,7 +894,12 @@
                 </div>
                 <div class="modal-body">
                     <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
                 </div>
                 <div class="modal-footer">
                     <a href="#" class="btn">Visit Page</a>
@@ -1110,7 +917,12 @@
                 </div>
                 <div class="modal-body">
                     <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
                 </div>
                 <div class="modal-footer">
                     <a href="#" class="btn">Visit Page</a>
@@ -1128,7 +940,12 @@
                 </div>
                 <div class="modal-body">
                     <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
                 </div>
                 <div class="modal-footer">
                     <a href="#" class="btn">Visit Page</a>
@@ -1146,7 +963,12 @@
                 </div>
                 <div class="modal-body">
                     <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
                 </div>
                 <div class="modal-footer">
                     <a href="#" class="btn">Visit Page</a>
@@ -1164,7 +986,12 @@
                 </div>
                 <div class="modal-body">
                     <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
                 </div>
                 <div class="modal-footer">
                     <a href="#" class="btn">Visit Page</a>
@@ -1182,7 +1009,12 @@
                 </div>
                 <div class="modal-body">
                     <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
                 </div>
                 <div class="modal-footer">
                     <a href="#" class="btn">Visit Page</a>
@@ -1200,7 +1032,12 @@
                 </div>
                 <div class="modal-body">
                     <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
                 </div>
                 <div class="modal-footer">
                     <a href="#" class="btn">Visit Page</a>
@@ -1218,7 +1055,12 @@
                 </div>
                 <div class="modal-body">
                     <h4 class="modal-title">Project title</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique.
+                        Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar
+                        a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis
+                        consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam
+                        sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non
+                        hendrerit.</p>
                 </div>
                 <div class="modal-footer">
                     <a href="#" class="btn">Visit Page</a>
@@ -1256,7 +1098,13 @@
 
     <!-- Custom JS -->
     <script src="assets/js/script.js"></script>
-  
+
+    <!--  -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
 
     <!-- Scraping-->
     <script src="https://code.highcharts.com/highcharts.js"></script>
@@ -1265,223 +1113,441 @@
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
     <script src="https://code.highcharts.com/modules/accessibility.js"></script>
     <script>
-        $(document).ready(function(){
-          $("#myInput").on("keyup", function() {
-            var value = $(this).val().toLowerCase();
-            $(".dropdown-menu li").filter(function() {
-              $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        $(document).ready(function () {
+            $("#myInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $(".dropdown-menu li").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
             });
-          });
         });
-        </script>
-   
-   <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        $(document).ready(function(){
-        $.ajax({
-            url: "JumlahPeserta.json",
-            method : "GET",
-            success: function(data) {
-                console.log(data);
-                var tahun = [];
-                var jumlah = [];
-                for(var i in data){
-                    tahun.push(data[i].Tahun);
-                    jumlah.push(data[i].Jumlah);
-                }
-            
-                const chart = Highcharts.chart('Peserta', {
-                    chart: {
-                        reflow: false,
-                        plotBorderColor: '#ccc',
-                        plotBorderWidth: 6,
-                        type: 'column',
-                        // Explicitly tell the width and height of a chart
-                        width: null,
-                        height: null
-                    },
-                    title: {
-                        text: '<b>Jumlah Peserta Tender Per Tahun</b>'
-                    },
-                    subtitle: {
-                        text: 'Sumber : <a href="https://lpse.batam.go.id/eproc4/lelang">lpse.batam.go.id</a>'
-                    },
-                    xAxis: {
-                        categories: tahun,
-                        color: '#ADD8E6',
-                    },
-                    yAxis: {
-                        title: {
-                            text: 'Jumlah Peserta'
-                        },
-                        tickInterval: 200
-                    },
-                    plotOptions: {
-                        series: {
-                            color: '#FF0000'
-                        }
-                    },
-                    responsive: {  
-                        rules: [{  
-                            condition: {  
-                            },  
-                            chartOptions: {  
-                            legend: {  
-                                enabled: false
-                            }  
-                            }  
-                        }]  
-                    },
-                    tooltip: {
-                        formatter: function() {
-                            return '<b>Jumlah peserta tender tahun ' + this.x + ' sebanyak ' + this.y +' peserta </b>';
-                        }
-                    },
-                    series: [{
-                        name: 'Jumlah',
-                        data: jumlah,
-                        colorByPoint: true
-                    }]
-                });
-            }
-        });
-    });
-});
-</script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        $(document).ready(function(){
-        $.ajax({
-            url: "JumlahPeserta.json",
-            method : "GET",
-            success: function(data) {
-                console.log(data);
-                var tahun = [];
-                var jumlah = [];
-                for(var i in data){
-                    tahun.push(data[i].Tahun);
-                    jumlah.push(data[i].Jumlah);
-                }
-            
-                const chart = Highcharts.chart('Peserta', {
-                    chart: {
-                        reflow: false,
-                        plotBorderColor: '#ccc',
-                        plotBorderWidth: 6,
-                        type: 'column',
-                        // Explicitly tell the width and height of a chart
-                        width: null,
-                        height: null
-                    },
-                    title: {
-                        text: '<b>Jumlah Peserta Tender Per Tahun</b>'
-                    },
-                    subtitle: {
-                        text: 'Sumber : <a href="https://lpse.batam.go.id/eproc4/lelang">lpse.batam.go.id</a>'
-                    },
-                    xAxis: {
-                        categories: tahun,
-                        color: '#ADD8E6',
-                    },
-                    yAxis: {
-                        title: {
-                            text: 'Jumlah Peserta'
-                        },
-                        tickInterval: 200
-                    },
-                    plotOptions: {
-                        series: {
-                            color: '#FF0000'
-                        }
-                    },
-                    responsive: {  
-                        rules: [{  
-                            condition: {  
-                            },  
-                            chartOptions: {  
-                            legend: {  
-                                enabled: false
-                            }  
-                            }  
-                        }]  
-                    },
-                    tooltip: {
-                        formatter: function() {
-                            return '<b>Jumlah peserta tender tahun ' + this.x + ' sebanyak ' + this.y +' peserta </b>';
-                        }
-                    },
-                    series: [{
-                        name: 'Jumlah',
-                        data: jumlah,
-                        colorByPoint: true
-                    }]
-                });
-            }
-        });
-    });
-});
-</script>
-<script>
-    $(document).ready(function(){
-        $.ajax({
-            url: "JumlahPeserta.json",
-            method : "GET",
-            success: function(data) {
-                console.log(data);
-                var tahun = [];
-                var jumlah = [];
-                for(var i in data){
-                    tahun.push(data[i].Tahun);
-                    jumlah.push(data[i].Jumlah);
-                }
+    </script>
 
-                var ctx = document.getElementById("myChart").getContext('2d');
-		        var myChart = new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: tahun,
-                    datasets: [{
-                        label: '# of Votes',
-                        data: jumlah,
-                        backgroundColor: [
-                        'rgba(255, 99, 132, 0.2)',
-                        'rgba(54, 162, 235, 0.2)',
-                        'rgba(255, 206, 86, 0.2)',
-                        'rgba(75, 192, 192, 0.2)',
-                        'rgba(153, 102, 255, 0.2)',
-                        'rgba(255, 159, 64, 0.2)'
-                        ],
-                        borderColor: [
-                        'rgba(255,99,132,1)',
-                        'rgba(54, 162, 235, 1)',
-                        'rgba(255, 206, 86, 1)',
-                        'rgba(75, 192, 192, 1)',
-                        'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)'
-                        ],
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: 'Custom Chart Title'
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            $(document).ready(function () {
+                $.ajax({
+                    url: "JumlahPeserta.json",
+                    method: "GET",
+                    success: function (data) {
+                        console.log(data);
+                        var tahun = [];
+                        var jumlah = [];
+                        for (var i in data) {
+                            tahun.push(data[i].Tahun);
+                            jumlah.push(data[i].Jumlah);
                         }
-                    },
-                    scales: {
-                        yAxes: [{
-                            ticks: {
-                                beginAtZero:true
+
+                        const chart = Highcharts.chart('Peserta', {
+                            chart: {
+                                reflow: false,
+                                plotBorderColor: '#ccc',
+                                plotBorderWidth: 6,
+                                type: 'column',
+                                // Explicitly tell the width and height of a chart
+                                width: null,
+                                height: null
+                            },
+                            title: {
+                                text: '<b>Jumlah Peserta Tender Per Tahun</b>'
+                            },
+                            subtitle: {
+                                text: 'Sumber : <a href="https://lpse.batam.go.id/eproc4/lelang">lpse.batam.go.id</a>'
+                            },
+                            xAxis: {
+                                categories: tahun,
+                                color: '#ADD8E6',
+                            },
+                            yAxis: {
+                                title: {
+                                    text: 'Jumlah Peserta'
+                                },
+                                tickInterval: 200
+                            },
+                            plotOptions: {
+                                series: {
+                                    color: '#FF0000'
+                                }
+                            },
+                            responsive: {
+                                rules: [{
+                                    condition: {
+                                    },
+                                    chartOptions: {
+                                        legend: {
+                                            enabled: false
+                                        }
+                                    }
+                                }]
+                            },
+                            tooltip: {
+                                formatter: function () {
+                                    return '<b>Jumlah peserta tender tahun ' + this.x + ' sebanyak ' + this.y + ' peserta </b>';
+                                }
+                            },
+                            series: [{
+                                name: 'Jumlah',
+                                data: jumlah,
+                                colorByPoint: true
+                            }]
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        $(document).ready(function () {
+            $.ajax({
+                url: "PemenangTerbanyak.json",
+                method: "GET",
+                success: function (data) {
+                    console.log(data);
+                    var tahun = [];
+                    var jumlah = [];
+                    for (var i in data) {
+                        tahun.push(data[i].Tahun);
+                        jumlah.push(data[i].Total);
+                    }
+
+                    const chart = Highcharts.chart('Pemenang', {
+                        chart: {
+                            reflow: false,
+                            plotBorderColor: '#ccc',
+                            plotBorderWidth: 6,
+                            type: 'column',
+                            // Explicitly tell the width and height of a chart
+                            width: null,
+                            height: null
+                        },
+                        title: {
+                            text: '<b>Pemenang Terder Terbanyak</b>'
+                        },
+                        subtitle: {
+                            text: 'Sumber : <a href="https://lpse.batam.go.id/eproc4/lelang">lpse.batam.go.id</a>'
+                        },
+                        xAxis: {
+                            categories: tahun,
+                            color: '#ADD8E6',
+                        },
+                        yAxis: {
+                            title: {
+                                text: 'Jumlah Peserta'
+                            },
+                            tickInterval: 5
+                        },
+                        plotOptions: {
+                            series: {
+                                color: '#FF0000'
                             }
+                        },
+                        responsive: {
+                            rules: [{
+                                condition: {
+                                },
+                                chartOptions: {
+                                    legend: {
+                                        enabled: true
+                                    }
+                                }
+                            }]
+                        },
+                        tooltip: {
+                            formatter: function () {
+                                return '<b>Jumlah peserta tender tahun ' + this.x + ' sebanyak ' + this.y + ' peserta </b>';
+                            }
+                        },
+                        series: [{
+                            name: 'Jumlah',
+                            data: jumlah,
+                            colorByPoint: true
                         }]
+                    });
+                }
+            });
+        });
+    });
+</script>
+
+
+    <script>
+
+
+        Highcharts.chart('chart2017', {
+            chart: {
+                reflow: false,
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie'
+            },
+            title: {
+                text: 'Informasi Tender 2017'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            accessibility: {
+                point: {
+                    valueSuffix: '%'
+                }
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %'
                     }
                 }
-            });
-        }
+            },
+            series: [{
+                name: 'Tender',
+                colorByPoint: true,
+                data: [{
+                    name: 'Tender Selesai',
+                    y: 533 / 100,
+                }, {
+                    name: 'Tender Batal',
+                    y: 41 / 100
+                }, {
+                    name: 'Seleksi Batal',
+                    y: 11 / 100
+                }, {
+                    name: 'Seleksi Gagal',
+                    y: 3 / 100
+                }, {
+                    name: 'Tender Gagal',
+                    y: 16 / 100
+                }]
+            }]
         });
-    });
+
     </script>
-  
+
+    <script>
+
+
+        Highcharts.chart('chart2018', {
+            chart: {
+                reflow: false,
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie'
+            },
+            title: {
+                text: 'Informasi Tender 2018'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            accessibility: {
+                point: {
+                    valueSuffix: '%'
+                }
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                    }
+                }
+            },
+            series: [{
+                name: 'Tender',
+                colorByPoint: true,
+                data: [{
+                    name: 'Tender Selesai',
+                    y: 417 / 100,
+                }, {
+                    name: 'Tender Batal',
+                    y: 64 / 100
+                }, {
+                    name: 'Seleksi Batal',
+                    y: 0 / 100
+                }, {
+                    name: 'Seleksi Gagal',
+                    y: 0 / 100
+                }, {
+                    name: 'Tender Gagal',
+                    y: 0 / 100
+                }]
+            }]
+        });
+    </script>
+
+    <script>
+
+        Highcharts.chart('chart2019', {
+            chart: {
+                reflow: false,
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie'
+            },
+            title: {
+                text: 'Informasi Tender 2019'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            accessibility: {
+                point: {
+                    valueSuffix: '%'
+                }
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                    }
+                }
+            },
+            series: [{
+                name: 'Tender',
+                colorByPoint: true,
+                data: [{
+                    name: 'Tender Selesai',
+                    y: 362 / 100,
+                }, {
+                    name: 'Tender Batal',
+                    y: 33 / 100
+                }, {
+                    name: 'Seleksi Batal',
+                    y: 1 / 100
+                }, {
+                    name: 'Seleksi Gagal',
+                    y: 27 / 100
+                }, {
+                    name: 'Tender Gagal',
+                    y: 69 / 100
+                }]
+            }]
+        });
+    </script>
+
+    <script>
+        Highcharts.chart('chart2020', {
+            chart: {
+                reflow: false,
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie'
+            },
+            title: {
+                text: 'Informasi Tender 2020'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            accessibility: {
+                point: {
+                    valueSuffix: '%'
+                }
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                    }
+                }
+            },
+            series: [{
+                name: 'Tender',
+                colorByPoint: true,
+                data: [{
+                    name: 'Tender Selesai',
+                    y: 146 / 100,
+                }, {
+                    name: 'Tender Batal',
+                    y: 49 / 100
+                }, {
+                    name: 'Seleksi Batal',
+                    y: 48 / 100
+                }, {
+                    name: 'Seleksi Gagal',
+                    y: 17 / 100
+                }, {
+                    name: 'Tender Gagal',
+                    y: 39 / 100
+                }]
+            }]
+        });
+
+    </script>
+
+    <script>
+
+
+        Highcharts.chart('chart2021', {
+            chart: {
+                reflow: false,
+                plotBackgroundColor: null,
+                plotBorderWidth: null,
+                plotShadow: false,
+                type: 'pie'
+            },
+            title: {
+                text: 'Informasi Tender 2021'
+            },
+            tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            },
+            accessibility: {
+                point: {
+                    valueSuffix: '%'
+                }
+            },
+            plotOptions: {
+                pie: {
+                    allowPointSelect: true,
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                    }
+                }
+            },
+            series: [{
+                name: 'Tender',
+                colorByPoint: true,
+                data: [{
+                    name: 'Tender Selesai',
+                    y: 429 / 100,
+                }, {
+                    name: 'Tender Batal',
+                    y: 20 / 100
+                }, {
+                    name: 'Seleksi Batal',
+                    y: 6 / 100
+                }, {
+                    name: 'Seleksi Gagal',
+                    y: 5 / 100
+                }, {
+                    name: 'Tender Gagal',
+                    y: 98 / 100
+                }]
+            }]
+        });
+
+    </script>
+
+
+
 </body>
+
 </html>
