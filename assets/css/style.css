@@ -2489,3 +2489,9 @@ textarea.form-control {
   padding-top: 10px;
   color: white;
 }
+
+.iframe-container {
+  text-align:center;
+    width:100%;
+    margin-left: 320px;
+}
