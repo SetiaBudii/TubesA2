@@ -1,0 +1,42 @@
+[
+    {
+        "Tahun": 2017,
+        "TenderSelesai": 417,
+        "TenderBatal": 64,
+        "SeleksiBatal": 33,
+        "SeleksiGagal": 0,
+        "TenderGagal": 0
+    },
+    {
+        "Tahun": 2018,
+        "TenderSelesai": 417,
+        "TenderBatal": 64,
+        "SeleksiBatal": 33,
+        "SeleksiGagal": 0,
+        "TenderGagal": 0
+    },
+    {
+        "Tahun": 2019,
+        "TenderSelesai": 362,
+        "TenderBatal": 33,
+        "SeleksiBatal": 1,
+        "SeleksiGagal": 27,
+        "TenderGagal": 69
+    },
+    {
+        "Tahun": 2020,
+        "TenderSelesai": 146,
+        "TenderBatal": 49,
+        "SeleksiBatal": 48,
+        "SeleksiGagal": 17,
+        "TenderGagal": 39
+    },
+    {
+        "Tahun": 2021,
+        "TenderSelesai": 429,
+        "TenderBatal": 20,
+        "SeleksiBatal": 6,
+        "SeleksiGagal": 5,
+        "TenderGagal": 98
+    }
+]
