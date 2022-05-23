@@ -919,7 +919,7 @@
                         },
                         tooltip: {
                             formatter: function () {
-                                return '<b>Pemenang tender terbanyak tahun ' + this.x + ' dengan total kemenangangan sebanyak ' + this.y + ' kali </b>';
+                                return '<b>Pemenang tender terbanyak tahun ' + this.x + ' dengan total kemenangan sebanyak ' + this.y + ' kali </b>';
                             }
                         },
                         series: [{
@@ -933,11 +933,7 @@
         });
     });
 </script>
-
-
     <script>
-
-
         Highcharts.chart('chart2017', {
             chart: {
                 reflow: false,
@@ -1006,7 +1002,7 @@
                 text: 'Informasi Tender 2018'
             },
             tooltip: {
-                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                pointFormat: '{series.name}: <b>{point.y}</b><br>'
             },
             accessibility: {
                 point: {
@@ -1028,19 +1024,19 @@
                 colorByPoint: true,
                 data: [{
                     name: 'Tender Selesai',
-                    y: 417 / 100,
+                    y: 417
                 }, {
                     name: 'Tender Batal',
-                    y: 64 / 100
+                    y: 64
                 }, {
                     name: 'Seleksi Batal',
-                    y: 0 / 100
+                    y: 0
                 }, {
                     name: 'Seleksi Gagal',
-                    y: 0 / 100
+                    y: 0
                 }, {
                     name: 'Tender Gagal',
-                    y: 0 / 100
+                    y: 0
                 }]
             }]
         });
@@ -1060,7 +1056,7 @@
                 text: 'Informasi Tender 2019'
             },
             tooltip: {
-                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                pointFormat: '{series.name}: <b>{point.y}</b><br>'
             },
             accessibility: {
                 point: {
@@ -1082,19 +1078,19 @@
                 colorByPoint: true,
                 data: [{
                     name: 'Tender Selesai',
-                    y: 362 / 100,
+                    y: 362
                 }, {
                     name: 'Tender Batal',
-                    y: 33 / 100
+                    y: 33
                 }, {
                     name: 'Seleksi Batal',
-                    y: 1 / 100
+                    y: 1
                 }, {
                     name: 'Seleksi Gagal',
-                    y: 27 / 100
+                    y: 27
                 }, {
                     name: 'Tender Gagal',
-                    y: 69 / 100
+                    y: 69
                 }]
             }]
         });
@@ -1113,7 +1109,7 @@
                 text: 'Informasi Tender 2020'
             },
             tooltip: {
-                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                pointFormat: '{series.name}: <b>{point.y}</b><br>'
             },
             accessibility: {
                 point: {
@@ -1135,19 +1131,19 @@
                 colorByPoint: true,
                 data: [{
                     name: 'Tender Selesai',
-                    y: 146 / 100,
+                    y: 146,
                 }, {
                     name: 'Tender Batal',
-                    y: 49 / 100
+                    y: 49
                 }, {
                     name: 'Seleksi Batal',
-                    y: 48 / 100
+                    y: 48
                 }, {
                     name: 'Seleksi Gagal',
-                    y: 17 / 100
+                    y: 17
                 }, {
                     name: 'Tender Gagal',
-                    y: 39 / 100
+                    y: 39
                 }]
             }]
         });
@@ -1169,7 +1165,7 @@
                 text: 'Informasi Tender 2021'
             },
             tooltip: {
-                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                pointFormat: '{series.name}: <b>{point.y}</b><br>'
             },
             accessibility: {
                 point: {
@@ -1191,19 +1187,19 @@
                 colorByPoint: true,
                 data: [{
                     name: 'Tender Selesai',
-                    y: 429 / 100,
+                    y: 429,
                 }, {
                     name: 'Tender Batal',
-                    y: 20 / 100
+                    y: 20
                 }, {
                     name: 'Seleksi Batal',
-                    y: 6 / 100
+                    y: 6
                 }, {
                     name: 'Seleksi Gagal',
-                    y: 5 / 100
+                    y: 5
                 }, {
                     name: 'Tender Gagal',
-                    y: 98 / 100
+                    y: 98
                 }]
             }]
         });
